@@ -15,12 +15,12 @@
 import os
 import sys
 
-if sys.version_info[:2] < (2, 4) or sys.version_info[0] > 2:
-    msg = ("Supervisor requires Python 2.4 or later but does not work on "
-           "any version of Python 3.  You are using version %s.  Please "
-           "install using a supported version." % sys.version)
-    sys.stderr.write(msg)
-    sys.exit(1)
+# if sys.version_info[:2] < (2, 4) or sys.version_info[0] > 2:
+#     msg = ("Supervisor requires Python 2.4 or later but does not work on "
+#            "any version of Python 3.  You are using version %s.  Please "
+#            "install using a supported version." % sys.version)
+#     sys.stderr.write(msg)
+#     sys.exit(1)
 
 requires = ['setuptools', 'meld3 >= 0.6.5']
 
